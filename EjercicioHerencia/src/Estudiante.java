@@ -17,6 +17,9 @@ public class Estudiante {
     public void setCurso(String curso) {
         this.curso = curso;
     }
+    public String saludar(){
+        return "Bienvenidos " + nombre;
+    }
     @Override
     public String toString() {
         return "Estudiante [nombre=" + nombre + ", curso=" + curso + "]";
