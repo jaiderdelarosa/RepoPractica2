@@ -17,5 +17,9 @@ public class Estudiante {
     public void setCurso(String curso) {
         this.curso = curso;
     }
+    @Override
+    public String toString() {
+        return "Estudiante [nombre=" + nombre + ", curso=" + curso + "]";
+    }
      
 }
